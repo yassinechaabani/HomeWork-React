@@ -21,7 +21,7 @@ function App() {
    
   };
   return (
-    <div className="time-tracking-dashboard">
+    <div>
     {timeCardsData.map((timeCardData) => (
       <TimeCard
         name={timeCardData.name}
